@@ -14,9 +14,109 @@
     />
 
     <title>e-Learn | School</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+      <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="/images/e.png" alt="e-learn logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Instructors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search Courses"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-primary" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <div class="b-example-divider"></div>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="/images/illustration-2.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <p class="lead">Popular Online Courses</p>
+          <h1 class="display-5 fw-bold lh-1 mb-3">
+            The New Way To Learn With Us!
+          </h1>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="b-example-divider"></div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
